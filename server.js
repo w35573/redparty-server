@@ -5,7 +5,7 @@ const ioUtils = require('./utils/io');
 
 const io = require('socket.io')(server, {
 	path: '/socket',
-	origins: ['https://redparty.netlify.app', 'http://localhost:3000'],
+	origins: ['http://localhost:3000', 'https://636d0d705552d02ed0ca09e8--nimble-malasada-c10832.netlify.app/'],
 	serveClient: false,
 });
 
